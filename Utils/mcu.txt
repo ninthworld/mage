@@ -1,0 +1,452 @@
+1|Acrobatic Maneuver
+3|Act of Heroism
+5|Adam Warlock, Savior of Worlds
+7|Angel
+7|Archangel
+9|Banshee
+11|Beyonder
+13|Black Panther
+15|Blink
+17|Bucky Barnes
+17|The Winter Soldier
+19|Built to Last
+21|Council’s Judgment
+23|Dagger
+25|Dazzler
+27|Detainment Spell
+29|Edwin Jarvis
+31|End Hostilities
+33|First Response
+35|Flash Thompson
+35|Agent Anti-Venom
+37|High Ground
+39|Honor’s Reward
+41|Kill Shot
+43|Mary Jane Watson
+45|Matt Murdock
+45|Daredevil, the Man Without Fear
+47|Miraculous Recovery
+49|Murder Investigation
+51|Nightcrawler
+53|Open the Armory
+55|Path of Bravery
+57|Peter Rasputin
+57|Colossus
+59|Raise the Alarm
+61|Reed Richards, Mr. Fantastic
+63|Retaliate
+65|Revoke Existence
+67|Sentry
+67|Void
+69|Shoulder to Shoulder
+71|Silver Sable
+72|Steve Rogers
+72|Captain America
+73|Strength of Arms
+74|Timely Reinforcements
+75|Turn the Tables
+76|Valorous Stance
+77|Wong
+78|Abduction
+79|Ancestral Vision
+80|Betsy Braddock
+80|Psylocke
+81|Brainstorm
+82|Cerebro
+83|Chameleon
+84|Clone Legion
+85|Cyclonic Rift
+86|Days of Future Past
+87|Doctor Octopus
+88|Emil Blonsky
+88|Abomination
+89|Evacuation
+90|Eyes of the Watcher
+91|Fabricate
+92|Fuel for the Cause
+93|Glimmer of Genius
+94|Hydro-Man
+95|Iceman
+96|Icy Blast
+97|Illusionist’s Strategem
+98|Invisibility
+99|Jamie Madrox, the Multiple Man
+100|Jean Grey
+101|Kang the Conqueror
+102|Karma
+103|Loki, God of Mischief
+104|Long-Term Plans
+105|M.O.D.O.K.
+106|Magik
+106|Magik, Darkchylde
+107|Magneto
+108|Malfunction
+109|Metallic Rebuke
+110|Metallurgic Summonings
+111|Mission Briefing
+112|Mysterio
+113|Mystic Confluence
+114|Mystic Retrieval
+115|Namor, the Sub-Mariner
+116|Norrin Radd
+116|Silver Surfer
+117|Polaris
+118|Portal of Sanctuary
+119|Rebuild
+120|Reverse Engineer
+121|Scour All Possibilities
+122|Shadowcat
+123|Shifting Loyalties
+124|Sinister Sabotage
+125|Spontaneous Mutation
+126|Spy Network
+127|Steady Progress
+128|Stealth Mission
+129|Stolen Goods
+130|Sue Storm, the Invisible Woman
+131|Talent of the Telepath
+132|Telekinesis
+133|Temporal Manipulation
+134|Tony Stark
+134|Iron Man
+135|Training Grounds
+136|Uatu the Watcher
+137|Unity of Purpose
+138|Warlock
+139|Abnormal Endurance
+140|Annihilation
+141|Annihilus
+142|Baron Strucker
+143|Baron Zemo
+144|Black Market
+145|Blackheart
+146|Cameron Hodge
+147|Cletus Kasady
+147|Carnage
+148|Cloak
+149|Costly Plunder
+150|Daring Demolition
+151|Dark Deal
+152|Dark Ritual
+153|Eddie Brock
+153|Venom
+154|Engineered Plague
+155|Galactus, Devourer of Worlds
+156|Gang Up
+157|Grotesque Mutation
+158|Hex
+159|Hobgoblin
+160|Living Death
+161|Man-Thing
+162|Maximum Carnage
+163|Medusa
+164|Mojo, the Spineless One
+165|Morbid Curiosity
+166|No Mercy
+167|Norman Osborn
+167|Green Goblin
+168|Painful Lesson
+169|Phalanx Dominion
+170|Price of Betrayal
+171|Ransack the Lab
+172|Scheming Symmetry
+173|Sebastian Shaw, the Black King
+174|Selene, the Black Queen
+175|Sins of the Past
+176|Stunning Reversal
+177|Thanos, the Mad Titan
+178|Torment of Venom
+179|Tyrant’s Choice
+180|Underworld Connections
+181|Unlikely Aid
+182|Unmask
+183|Vicious Offering
+184|Vicious Rumors
+185|Viper’s Kiss
+186|Wilson Fisk, the Kingpin
+187|Worst Fears
+188|Wretched Confluence
+189|Avalanche
+190|Barge In
+191|Black Cat
+192|Breaking Point
+193|Cain Marko
+193|Juggernaut
+194|Cannonball
+195|Cyttorak the Destroyer
+196|Deadpool
+197|Domino
+198|Drax the Destroyer
+199|Electro
+200|Faithless Looting
+201|Fiery Confluence
+202|Firestar
+203|Fractured Loyalty
+204|Gambit
+205|Gamble
+206|Havok
+207|Hijack
+208|Hostile Realm
+209|Impact Tremors
+210|Incite War
+211|Increasing Vengeance
+212|Inferno Fist
+213|J. Jonah Jameson
+214|Johnny Storm, the Human Torch
+215|Kallark, Gladiator of the Imperial Guard
+216|Longshot
+217|Mark for Death
+218|Molten Psyche
+219|Nova
+220|Peter Quill
+220|Starlord
+221|Phoenix Force
+222|The Phoenix Saga
+223|Pyro
+224|Quicksilver
+225|Reality Scramble
+226|Rocket Raccoon
+227|Sandman
+228|Seize the Day
+229|Shared Animosity
+230|Shocker
+231|Shrapnel Blast
+232|Smash to Smithereens
+233|Sunspot
+234|Thrill of Possibility
+235|Vigilante Justice
+236|Warpath
+237|Beast Within
+238|Become Immense
+239|Biogenic Upgrade
+240|Blob
+241|Broken Bond
+242|Bruce Banner
+242|Hulk
+243|Clear Shot
+244|Courage in Crisis
+245|Doctor Curt Connors
+245|The Lizard
+246|Enter the Unknown
+247|Evolutionary Leap
+248|Grapple with the Past
+249|Greater Good
+250|Groot
+251|Hawkeye
+252|High Evolutionary
+253|Hunter’s Prowess
+254|Ka-Zar, Protector of the Savage Lands
+255|Kraven the Hunter
+256|Mantis, Celestial Madonna
+257|Might Beyond Reason
+258|Momentous Fall
+259|Mutant’s Prey
+260|Overrun
+261|Parallel Lives
+263|Predatory Hunger
+264|Puck
+266|Rampant Growth
+267|Regrowth
+268|Rhino
+270|Sixth Sense
+271|Solidarity of Heroes
+272|Steady Aim
+273|Terrifying Presence
+274|Titanic Brawl
+275|Toad
+276|Verdant Confluence
+278|Acts of Vengeance
+279|Age of Apocalpyse
+280|Amora the Enchantress
+281|Apocalypse
+282|Aurora
+283|Baron Mordo
+284|Bishop, the Last X-Man
+285|Black Bolt, Celestial Messiah
+286|Bullseye
+287|Cable
+288|Campaign of Vengeance
+289|Chance for Glory
+290|Civil War
+291|The Clone Saga
+292|Colossal Might
+293|Cyclops
+294|Deathlok
+295|Desperate Stand
+296|Doctor Doom
+297|Donald Pierce, the White Bishop
+298|Dormammu, Lord of Darkness
+299|Emma Frost, the White Queen
+300|Falcon
+301|Finest Hour
+302|Fractured Identity
+303|Ghost Rider
+304|Guardian
+305|House of M
+306|Hull Breach
+307|The Infinity Gauntlet
+308|Ionize
+309|Jubilee
+310|Legion
+311|Mandarin
+312|Mephisto, Prince of Lies
+313|Merciless Eviction
+314|Mimic
+315|Mirage
+316|Mister Sinister
+317|Mutant Massacre
+318|Nebula
+319|Neoform
+320|Nick Fury
+321|Northstar
+322|Omega Red
+323|The Onslaught Saga
+324|Pilfered Plans
+325|Professor Charles Xavier
+326|Punisher
+327|Putrefy
+328|Red Skull
+329|Rhythm of the Wild
+330|Righteous Authority
+331|Rogue
+332|Sabertooth
+333|Scarlet Witch
+334|Searing Meditation
+335|Secret Invasion
+336|Secret Wars
+337|Shaman
+338|Silver Samurai
+339|Snowbird
+340|Storm
+341|Teleportal
+342|Thor, God of Thunder
+343|Time Wipe
+344|Toxin
+345|Unexpected Results
+346|Unflinching Courage
+347|Urban Evolution
+348|Vindicate
+349|Vindicator
+350|Wasp
+351|Wiccan
+352|Wolverine
+353|World War Hulk
+354|Ben Grimm, the Thing
+355|Black Tom
+356|Black Widow
+357|Blade
+360|Elektra
+361|Fate Transfer
+362|Forge
+363|Franklin Richards
+364|Gamora
+366|Growing Ranks
+369|Hercules
+370|Iron Fist
+374|Lady Deathstrike
+375|Luke Cage, Hero for Hire
+376|Marrow
+377|Mastermind
+378|Moon Knight
+379|Morbius
+380|Mystique
+381|Nighthawk
+382|Odin, the All-Father
+383|Prowler
+384|Rictor
+385|Scorpion
+386|Talisman
+387|Taskmaster
+388|Viper
+389|Vulture
+390|Wendigo
+391|Yao, the Ancient One
+392|Adamantium
+393|Battle Van
+394|Billy Club
+396|Black Blade of Muramasa
+397|Blackbird
+398|Book of the Damned
+399|Book of the Vishanti
+400|Carbonadium
+401|Casket of Ancient Winters
+402|Cavorite
+403|Cosmic Cube
+404|Cosmic Surfboard
+405|Crimson Gem of Cyttorak
+406|Defense Grid
+407|Elixir of Immortality
+408|Empowered Autogenerator
+409|Engineered Explosives
+410|Evolution Vat
+411|Explosive Apparatus
+412|Eye of Agamotto
+413|Fabrication Module
+414|Fantasti-Car
+415|Glaring Spotlight
+416|Goblin Glider
+417|Hell Cycle
+418|Helm of the Host
+419|Hulkbuster Armor
+420|Infinity Stones
+421|Iron Man’s Armor
+422|Legacy Virus
+423|Liquimetal Coating
+424|Magneto’s Helmet
+425|Makluan Rings
+426|Mimic Vat
+427|Mind’s Eye
+428|Mjolnir
+429|M’Kraan Crystal
+431|Planar Portal
+432|Power Conduit
+433|Quinjet
+434|Rejuvenation Chamber
+435|Riot Gear
+436|Rogue’s Gloves
+437|Ruby-Quartz Visor
+438|S.H.I.E.L.D. Helicarrier
+439|Salvaging Station
+440|Sanctuary
+441|Satan Claw
+442|Sentinel Tower
+443|Silent Gravestone
+444|Spider-Mobile
+445|Staff of One
+446|Super-Soldier Serum
+447|Sword of Vengeance
+448|Techno-Organic Virus
+449|Tyrant’s Machine
+450|Ultimate Nullifier
+451|Ultron
+452|Uru
+453|Vanquisher’s Banner
+454|Vibranium
+455|Vibranium Shield
+456|Vision
+457|Wand of Watomb
+458|Weapon Rack
+459|Asgard
+460|Atlantis
+462|Baxter Building
+463|The Daily Bugle
+464|The Danger Room
+465|Dark Dimension
+466|Empire State University
+468|Hell
+469|Hell’s Kitchen
+470|Kamar-Taj
+471|Krakoa
+473|Madripoor
+474|Muir Island
+475|Negative Zone
+476|The Peak
+477|The Raft
+478|Ravencroft Institute
+479|S.H.I.E.L.D. Headquarters
+480|Sanctum Sanctorum
+481|The Savage Land
+482|Symkaria
+483|Utopia
+484|Wakanda
+485|Xavier’s School for Gifted Youngsters

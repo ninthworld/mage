@@ -14,7 +14,7 @@ public final class PlantToken extends TokenImpl {
     static final private List<String> tokenImageSets = new ArrayList<>();
 
     static {
-        tokenImageSets.addAll(Arrays.asList("WWK", "DDP", "OGW"));
+        tokenImageSets.addAll(Arrays.asList("WWK", "DDP", "OGW", "MCU"));
     }
 
     public PlantToken() {

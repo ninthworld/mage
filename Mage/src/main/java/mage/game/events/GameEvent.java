@@ -75,6 +75,7 @@ public class GameEvent implements Serializable {
         MIRACLE_CARD_REVEALED,
         MADNESS_CARD_EXILED,
         INVESTIGATED,
+        INVENTED, // Custom Set: Marvel the Gathering
         KICKED,
         /* CONVOKED
          targetId    id of the creature that was taped to convoke the sourceId

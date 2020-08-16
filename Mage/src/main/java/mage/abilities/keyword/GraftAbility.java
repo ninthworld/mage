@@ -18,6 +18,7 @@ import mage.filter.common.FilterCreaturePermanent;
 import mage.game.Game;
 import mage.game.events.GameEvent;
 import mage.game.permanent.Permanent;
+import mage.game.permanent.token.Token;
 import mage.target.targetpointer.FixedTarget;
 import mage.util.CardUtil;
 
@@ -45,6 +46,17 @@ public class GraftAbility extends TriggeredAbilityImpl {
         this.amount = amount;
         StringBuilder sb = new StringBuilder();
         for (CardType theCardtype : card.getCardType()) {
+            sb.append(theCardtype.toString().toLowerCase(Locale.ENGLISH)).append(' ');
+        }
+        this.cardtype = sb.toString().trim();
+        addSubAbility(new GraftStaticAbility(amount));
+    }
+
+    public GraftAbility(Token token, int amount) {
+        super(Zone.BATTLEFIELD, new GraftDistributeCounterEffect(), true);
+        this.amount = amount;
+        StringBuilder sb = new StringBuilder();
+        for (CardType theCardtype : token.getCardType()) {
             sb.append(theCardtype.toString().toLowerCase(Locale.ENGLISH)).append(' ');
         }
         this.cardtype = sb.toString().trim();

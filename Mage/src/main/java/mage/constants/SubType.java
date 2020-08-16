@@ -50,6 +50,7 @@ public enum SubType {
     // A
     ADVISOR("Advisor", SubTypeSet.CreatureType),
     AETHERBORN("Aetherborn", SubTypeSet.CreatureType),
+    AGENT("Agent", SubTypeSet.CreatureType, true), // Marvel the Gathering
     ALLY("Ally", SubTypeSet.CreatureType),
     ANGEL("Angel", SubTypeSet.CreatureType),
     ANTELOPE("Antelope", SubTypeSet.CreatureType),
@@ -110,6 +111,7 @@ public enum SubType {
     CROLUTE("Crolute", SubTypeSet.CreatureType, true), // Star Wars
     CYBORG("Cyborg", SubTypeSet.CreatureType, true), // Star Wars
     CYCLOPS("Cyclops", SubTypeSet.CreatureType),
+    COSMIC("Cosmic", SubTypeSet.CreatureType, true), // Marvel the Gathering
     // D
     DATHOMIRIAN("Dathomirian", SubTypeSet.CreatureType, true), // Star Wars
     DAUTHI("Dauthi", SubTypeSet.CreatureType),
@@ -120,6 +122,7 @@ public enum SubType {
     DINOSAUR("Dinosaur", SubTypeSet.CreatureType), // With Ixalan now being spoiled, need this to be selectable
     DJINN("Djinn", SubTypeSet.CreatureType),
     DOG("Dog", SubTypeSet.CreatureType),
+    DOOMBOT("Doombot", SubTypeSet.CreatureType, true), // Marvel the Gathering
     DRAGON("Dragon", SubTypeSet.CreatureType),
     DRAKE("Drake", SubTypeSet.CreatureType),
     DREADNOUGHT("Dreadnought", SubTypeSet.CreatureType),
@@ -127,6 +130,7 @@ public enum SubType {
     DRUID("Druid", SubTypeSet.CreatureType),
     DROID("Droid", SubTypeSet.CreatureType, true), // Star Wars
     DRYAD("Dryad", SubTypeSet.CreatureType),
+    DUPLICATE("Duplicate", SubTypeSet.CreatureType, true), // Marvel the Gathering
     DWARF("Dwarf", SubTypeSet.CreatureType),
     // E
     EFREET("Efreet", SubTypeSet.CreatureType),
@@ -147,10 +151,12 @@ public enum SubType {
     FISH("Fish", SubTypeSet.CreatureType),
     FLAGBEARER("Flagbearer", SubTypeSet.CreatureType),
     FOX("Fox", SubTypeSet.CreatureType),
+    FORCEFIELD("Forcefield", SubTypeSet.CreatureType, true), // Marvel the Gathering
     FROG("Frog", SubTypeSet.CreatureType),
     FUNGUS("Fungus", SubTypeSet.CreatureType),
     // G
     GAMER("Gamer", SubTypeSet.CreatureType, true), // Un-sets
+    GAMMA("Gamma", SubTypeSet.CreatureType, true), // Marvel the Gathering
     GAMORREAN("Gamorrean", SubTypeSet.CreatureType, true), // Star Wars
     GAND("Gand", SubTypeSet.CreatureType, true), // Star Wars
     GARGOYLE("Gargoyle", SubTypeSet.CreatureType),
@@ -186,6 +192,7 @@ public enum SubType {
     IMP("Imp", SubTypeSet.CreatureType),
     INCARNATION("Incarnation", SubTypeSet.CreatureType),
     INSECT("Insect", SubTypeSet.CreatureType),
+    INVENTION("Invention", SubTypeSet.ArtifactType, true), // Marvel the Gathering
     ITHORIAN("Ithorian", SubTypeSet.CreatureType, true), // Star Wars
     // J
     JACKAL("Jackal", SubTypeSet.CreatureType),
@@ -222,6 +229,7 @@ public enum SubType {
     MANTICORE("Manticore", SubTypeSet.CreatureType),
     MASTICORE("Masticore", SubTypeSet.CreatureType),
     MERCENARY("Mercenary", SubTypeSet.CreatureType),
+    MERCHANT("Merchant", SubTypeSet.CreatureType, true), // Marvel the Gathering
     MERFOLK("Merfolk", SubTypeSet.CreatureType),
     METATHRAN("Metathran", SubTypeSet.CreatureType),
     MINION("Minion", SubTypeSet.CreatureType),
@@ -286,6 +294,7 @@ public enum SubType {
     RAT("Rat", SubTypeSet.CreatureType),
     REBEL("Rebel", SubTypeSet.CreatureType),
     REFLECTION("Reflection", SubTypeSet.CreatureType),
+    REAVER("Reaver", SubTypeSet.CreatureType, true), // Marvel the Gathering
     RHINO("Rhino", SubTypeSet.CreatureType),
     RIGGER("Rigger", SubTypeSet.CreatureType),
     RODIAN("Rodian", SubTypeSet.CreatureType, true), // Star Wars
@@ -303,6 +312,7 @@ public enum SubType {
     SCORPION("Scorpion", SubTypeSet.CreatureType),
     SCOUT("Scout", SubTypeSet.CreatureType),
     SCULPTURE("Sculpture", SubTypeSet.CreatureType),
+    SENTINEL("Sentinel", SubTypeSet.CreatureType, true), // Marvel the Gathering
     SERF("Serf", SubTypeSet.CreatureType),
     SERPENT("Serpent", SubTypeSet.CreatureType),
     SERVO("Servo", SubTypeSet.CreatureType),
@@ -338,7 +348,9 @@ public enum SubType {
     SULLUSTAN("Sullustan", SubTypeSet.CreatureType, true), // Star Wars
     SURRAKAR("Surrakar", SubTypeSet.CreatureType),
     SURVIVOR("Survivor", SubTypeSet.CreatureType),
+    SYMBIOTE("Symbiote", SubTypeSet.CreatureType, true), // Marvel the Gathering
     // T
+    TELEPATH("Telepath", SubTypeSet.CreatureType, true), // Marvel the Gathering
     TENTACLE("Tentacle", SubTypeSet.CreatureType),
     TETRAVITE("Tetravite", SubTypeSet.CreatureType),
     THALAKOS("Thalakos", SubTypeSet.CreatureType),

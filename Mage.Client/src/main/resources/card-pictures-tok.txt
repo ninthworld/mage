@@ -1426,3 +1426,35 @@
 # Jumpstart uses tokens and emblems from M21 set,
 # TODO: check scryfall for JMP tokens after set's release
 |Generate|TOK:JMP|Unicorn|||UnicornToken|
+
+# MCU
+|Generate|TOK:MCU|Beast Horror|||BeastHorrorToken|
+|Generate|TOK:MCU|Beast|||BeastToken|
+|Generate|TOK:MCU|Chthon|||ChthonToken|
+|Generate|TOK:MCU|Clue|||ClueArtifactToken|
+|Generate|TOK:MCU|Construct|||ConstructBlankToken|
+|Generate|TOK:MCU|Cosmic Warror|||CosmicWarriorToken|
+|Generate|TOK:MCU|Demon|||DemonToken|
+|Generate|TOK:MCU|Doombot|||DoombotToken|
+|Generate|TOK:MCU|Dragon|||DragonToken3|
+|Generate|TOK:MCU|Duplicate|||DuplicateToken|
+|Generate|TOK:MCU|Elemental|||ElementalToken|
+|Generate|TOK:MCU|Forcefield|||ForcefieldToken|
+|Generate|TOK:MCU|Human Agent|||HumanAgentToken|
+|Generate|TOK:MCU|Human Soldier|||HumanSoldierToken|
+|Generate|TOK:MCU|Illusion|||IllusionSacrificeToken|
+|Generate|TOK:MCU|Insect|||InsectAnnihilatorToken|
+|Generate|TOK:MCU|Invention|||InventionArtifactToken|
+|Generate|TOK:MCU|Lockheed|||LockheedToken|
+|Generate|TOK:MCU|Merfolk|||MerfolkToken|
+|Generate|TOK:MCU|Onslaught|||OnslaughtToken|
+|Generate|TOK:MCU|Plant|||PlantToken|
+|Generate|TOK:MCU|Reaver|||ReaverToken|
+|Generate|TOK:MCU|Redwing|||RedwingToken|
+|Generate|TOK:MCU|Sentinel|||SentinelToken|
+|Generate|TOK:MCU|Spider|||SpiderRadioactiveToken|
+|Generate|TOK:MCU|Spirit|||SpiritWhiteToken|
+|Generate|TOK:MCU|Symbiote|||SymbioteToken|
+|Generate|TOK:MCU|Thopter|||ThopterToken|
+|Generate|TOK:MCU|Wall|||WallBlueToken|
+|Generate|TOK:MCU|Zabu|||ZabuToken|
