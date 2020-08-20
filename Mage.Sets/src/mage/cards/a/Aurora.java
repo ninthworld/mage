@@ -22,9 +22,10 @@ import mage.filter.predicate.mageobject.NamePredicate;
  */
 public final class Aurora extends CardImpl {
 
-    private static final FilterCreaturePermanent filter = new FilterCreaturePermanent();
+    private static final FilterCreaturePermanent filter = new FilterCreaturePermanent("you control a creature named Northstar");
 
     static {
+        filter.add(TargetController.YOU.getControllerPredicate());
         filter.add(new NamePredicate("Northstar"));
     }
 

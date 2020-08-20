@@ -12,7 +12,7 @@ public final class ForcefieldToken extends TokenImpl {
 
     public ForcefieldToken() {
         super("Forcefield", "0/1 white Forcefield creature token with defender");
-        this.setOriginalExpansionSetCode("MCU");
+        this.setOriginalExpansionSetCode("MRV");
         cardType.add(CardType.CREATURE);
         color.setWhite(true);
         subtype.add(SubType.FORCEFIELD);

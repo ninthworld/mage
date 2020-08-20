@@ -13,7 +13,7 @@ public final class LockheedToken extends TokenImpl {
 
     public LockheedToken() {
         super("Lockheed", "1/1 blue Drake legendary creature token with flying named Lockheed");
-        this.setOriginalExpansionSetCode("MCU");
+        this.setOriginalExpansionSetCode("MRV");
         supertype.add(SuperType.LEGENDARY);
         cardType.add(CardType.CREATURE);
         color.setBlue(true);

@@ -10,6 +10,7 @@ import mage.abilities.effects.common.TransformSourceEffect;
 import mage.abilities.effects.common.continuous.GainAbilityTargetEffect;
 import mage.abilities.keyword.DeathtouchAbility;
 import mage.abilities.keyword.FlyingAbility;
+import mage.abilities.keyword.TransformAbility;
 import mage.cards.CardImpl;
 import mage.cards.CardSetInfo;
 import mage.constants.*;
@@ -58,6 +59,7 @@ public final class AngelArchangel extends CardImpl {
         this.addAbility(DeathtouchAbility.getInstance());
 
         // {W}: Transform Archangel.
+        this.addAbility(new TransformAbility());
         this.addAbility(new SimpleActivatedAbility(new TransformSourceEffect(false), new ManaCostsImpl("{W}")));
 
     }

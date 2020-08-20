@@ -8,6 +8,7 @@ import mage.abilities.common.SimpleActivatedAbility;
 import mage.abilities.costs.common.TapSourceCost;
 import mage.abilities.effects.common.TransformSourceEffect;
 import mage.abilities.effects.common.counter.AddCountersAllEffect;
+import mage.abilities.keyword.TransformAbility;
 import mage.cards.e.Enrage;
 import mage.constants.SubType;
 import mage.constants.SuperType;
@@ -53,6 +54,7 @@ public final class Sasquatch extends CardImpl {
         this.addAbility(new DealtDamageToSourceTriggeredAbility(new AddCountersAllEffect(CounterType.P1P1.createInstance(), filter), false, true));
 
         // {T}: Transform Sasquatch.
+        this.addAbility(new TransformAbility());
         this.addAbility(new SimpleActivatedAbility(new TransformSourceEffect(false), new TapSourceCost()));
     }
 

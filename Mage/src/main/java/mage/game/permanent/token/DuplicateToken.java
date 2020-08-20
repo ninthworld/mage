@@ -13,7 +13,7 @@ public final class DuplicateToken extends TokenImpl {
 
     public DuplicateToken() {
         super("Duplicate", "3/3 blue Duplicate creature token with changeling");
-        this.setOriginalExpansionSetCode("MCU");
+        this.setOriginalExpansionSetCode("MRV");
         cardType.add(CardType.CREATURE);
         color.setBlue(true);
         subtype.add(SubType.DUPLICATE);

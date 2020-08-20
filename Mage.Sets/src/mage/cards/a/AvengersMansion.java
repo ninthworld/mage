@@ -13,6 +13,7 @@ import mage.abilities.condition.common.PermanentsOnTheBattlefieldCondition;
 import mage.abilities.costs.Cost;
 import mage.abilities.decorator.ConditionalOneShotEffect;
 import mage.abilities.effects.common.TransformSourceEffect;
+import mage.abilities.keyword.TransformAbility;
 import mage.abilities.mana.ColorlessManaAbility;
 import mage.abilities.mana.ConditionalAnyColorManaAbility;
 import mage.abilities.mana.builder.ConditionalManaBuilder;
@@ -59,6 +60,7 @@ public final class AvengersMansion extends CardImpl {
         this.addAbility(new ConditionalAnyColorManaAbility(1, new AvengersMansionManaBuilder()));
 
         // At the beginning of your upkeep, if you control two or more multicolored creatures, transform Avengers Mansion.
+        this.addAbility(new TransformAbility());
         this.addAbility(new BeginningOfUpkeepTriggeredAbility(
                 Zone.BATTLEFIELD,
                 new ConditionalOneShotEffect(new TransformSourceEffect(true), condition,

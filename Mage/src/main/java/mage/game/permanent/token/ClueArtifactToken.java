@@ -23,7 +23,7 @@ public final class ClueArtifactToken extends TokenImpl {
     static final private List<String> tokenImageSets = new ArrayList<>();
 
     static {
-        tokenImageSets.addAll(Arrays.asList("SOI", "EDM", "MCU"));
+        tokenImageSets.addAll(Arrays.asList("SOI", "EDM", "MRV"));
     }
 
     public ClueArtifactToken() {

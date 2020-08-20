@@ -11,6 +11,7 @@ import mage.abilities.effects.common.DoIfCostPaid;
 import mage.abilities.effects.common.TransformSourceEffect;
 import mage.abilities.effects.common.counter.AddCountersAllEffect;
 import mage.abilities.effects.common.counter.GetEnergyCountersControllerEffect;
+import mage.abilities.keyword.TransformAbility;
 import mage.constants.SubType;
 import mage.constants.SuperType;
 import mage.cards.CardImpl;
@@ -44,7 +45,8 @@ public final class WalterLangkowski extends CardImpl {
         // Whenever you put a +1/+1 counter on a creature you control, you get {E}.
         this.addAbility(new WalterLangkowskiTriggeredAbility());
 
-        // Pay {E} {E} {E}: Transform Walter Langkowski.
+        // Pay {E}{E}{E}: Transform Walter Langkowski.
+        this.addAbility(new TransformAbility());
         this.addAbility(new SimpleActivatedAbility(new TransformSourceEffect(true), new PayEnergyCost(3)));
     }
 

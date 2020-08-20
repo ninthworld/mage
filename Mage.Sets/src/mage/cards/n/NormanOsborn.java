@@ -10,6 +10,7 @@ import mage.abilities.condition.common.MorbidCondition;
 import mage.abilities.effects.common.DamageControllerEffect;
 import mage.abilities.effects.common.DrawCardSourceControllerEffect;
 import mage.abilities.effects.common.TransformSourceEffect;
+import mage.abilities.keyword.TransformAbility;
 import mage.constants.*;
 import mage.abilities.keyword.ExploitAbility;
 import mage.cards.CardImpl;
@@ -52,6 +53,7 @@ public final class NormanOsborn extends CardImpl {
         this.addAbility(ability);
 
         // At the beginning of each end step, if two or more creatures died this turn, transform Norman Osborn.
+        this.addAbility(new TransformAbility());
         this.addAbility(new BeginningOfEndStepTriggeredAbility(Zone.BATTLEFIELD, new TransformSourceEffect(true),
                 TargetController.ANY, NormanOsbornCondition.instance, true));
     }

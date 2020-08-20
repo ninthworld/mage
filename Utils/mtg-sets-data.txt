@@ -226,4 +226,4 @@ Ixalan|XLN|
 Zendikar|ZEN|
 Star Wars|SWS|
 Happy Holidays|HHO|
-Marvel the Gathering|MCU|
+Marvel the Gathering|MRV|

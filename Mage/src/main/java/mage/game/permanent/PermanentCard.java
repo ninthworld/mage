@@ -57,6 +57,11 @@ public class PermanentCard extends PermanentImpl {
                 setTransformed(true);
                 TransformAbility.transform(this, getSecondCardFace(), game, null);
             }
+            else if (game.getState().getValue(TransformAbility.VALUE_KEY_ENTER_UNTRANSFORMED + getId()) != null) {
+                game.getState().setValue(TransformAbility.VALUE_KEY_ENTER_UNTRANSFORMED + getId(), null);
+                setTransformed(false);
+                TransformAbility.transform(this, getMainCard(), game, null);
+            }
         }
     }
 

@@ -12,7 +12,7 @@ public final class ReaverToken extends TokenImpl {
 
     public ReaverToken() {
         super("Reaver", "2/2 black Reaver artifact creature token");
-        this.setOriginalExpansionSetCode("MCU");
+        this.setOriginalExpansionSetCode("MRV");
         cardType.add(CardType.CREATURE);
         cardType.add(CardType.ARTIFACT);
         color.setBlack(true);

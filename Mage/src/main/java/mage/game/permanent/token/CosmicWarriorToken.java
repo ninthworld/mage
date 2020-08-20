@@ -13,7 +13,7 @@ public final class CosmicWarriorToken extends TokenImpl {
 
     public CosmicWarriorToken() {
         super("Cosmic Warrior", "2/2 black Cosmic Warrior creature token");
-        this.setOriginalExpansionSetCode("MCU");
+        this.setOriginalExpansionSetCode("MRV");
         cardType.add(CardType.CREATURE);
         color.setBlack(true);
         subtype.add(SubType.COSMIC);

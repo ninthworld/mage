@@ -16,7 +16,7 @@ public final class DragonToken3 extends TokenImpl {
 
     public DragonToken3() {
         super("Dragon", "3/3 red Dragon creature token with flying");
-        this.setOriginalExpansionSetCode("MCU");
+        this.setOriginalExpansionSetCode("MRV");
         cardType.add(CardType.CREATURE);
         color.setRed(true);
         subtype.add(SubType.DRAGON);

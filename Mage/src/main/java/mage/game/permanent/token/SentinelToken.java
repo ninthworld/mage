@@ -18,7 +18,7 @@ public final class SentinelToken extends TokenImpl {
 
     public SentinelToken() {
         super("Sentinel", "3/3 colorless Sentinel artifact creature token with \"{4}: Adapt 2\"");
-        this.setOriginalExpansionSetCode("MCU");
+        this.setOriginalExpansionSetCode("MRV");
         cardType.add(CardType.CREATURE);
         cardType.add(CardType.ARTIFACT);
         subtype.add(SubType.SENTINEL);

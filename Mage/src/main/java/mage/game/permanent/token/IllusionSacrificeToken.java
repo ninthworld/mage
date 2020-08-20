@@ -15,7 +15,7 @@ public final class IllusionSacrificeToken extends TokenImpl {
 
     public IllusionSacrificeToken() {
         super("Illusion", "1/1 blue Illusion creature token with \"Whenever this creature becomes the target of a spell or ability, sacrifice it.\"");
-        this.setOriginalExpansionSetCode("MCU");
+        this.setOriginalExpansionSetCode("MRV");
         cardType.add(CardType.CREATURE);
         color.setBlue(true);
         subtype.add(SubType.ILLUSION);

@@ -15,7 +15,7 @@ public final class WallBlueToken extends TokenImpl {
 
     public WallBlueToken() {
         super("Wall", "0/4 blue Wall creature token with defender");
-        this.setOriginalExpansionSetCode("MCU");
+        this.setOriginalExpansionSetCode("MRV");
         cardType.add(CardType.CREATURE);
         color.setBlue(true);
         subtype.add(SubType.WALL);

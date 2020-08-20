@@ -23,7 +23,7 @@ public final class InsectAnnihilatorToken extends TokenImpl {
 
     public InsectAnnihilatorToken(String setCode) {
         super("Insect", "1/1 black Insect creature token with Annihilator 1");
-        this.setOriginalExpansionSetCode("MCU");
+        this.setOriginalExpansionSetCode("MRV");
         cardType.add(CardType.CREATURE);
         color.setBlack(true);
         subtype.add(SubType.INSECT);

@@ -10,6 +10,7 @@ import mage.abilities.condition.common.PermanentsOnTheBattlefieldCondition;
 import mage.abilities.decorator.ConditionalOneShotEffect;
 import mage.abilities.effects.common.DestroyTargetEffect;
 import mage.abilities.effects.common.TransformSourceEffect;
+import mage.abilities.keyword.TransformAbility;
 import mage.constants.SubType;
 import mage.constants.SuperType;
 import mage.cards.CardImpl;
@@ -49,6 +50,7 @@ public final class CletusKasady extends CardImpl {
         this.addAbility(ability);
 
         // At the beginning of your upkeep, if any player controls a Symbiote, transform Cletus Kasady.
+        this.addAbility(new TransformAbility());
         this.addAbility(new BeginningOfUpkeepTriggeredAbility(
                 new ConditionalOneShotEffect(
                         new TransformSourceEffect(true),

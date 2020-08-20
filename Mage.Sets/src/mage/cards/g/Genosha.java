@@ -13,6 +13,7 @@ import mage.abilities.dynamicvalue.common.CountersCount;
 import mage.abilities.effects.common.DrawCardSourceControllerEffect;
 import mage.abilities.effects.common.TransformSourceEffect;
 import mage.abilities.effects.common.counter.AddCountersTargetEffect;
+import mage.abilities.keyword.TransformAbility;
 import mage.abilities.mana.SimpleManaAbility;
 import mage.abilities.mana.WhiteManaAbility;
 import mage.constants.SubType;
@@ -61,6 +62,7 @@ public final class Genosha extends CardImpl {
         this.addAbility(ability);
 
         // Whenever a creature with a -1/-1 counter on it dies, transform Genosha.
+        this.addAbility(new TransformAbility());
         this.addAbility(new GenoshaTriggeredAbility());
     }
 

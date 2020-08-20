@@ -10,6 +10,7 @@ import mage.abilities.effects.common.TransformSourceEffect;
 import mage.abilities.effects.common.continuous.BoostControlledEffect;
 import mage.abilities.keyword.HeroicAbility;
 import mage.abilities.keyword.ProtectionAbility;
+import mage.abilities.keyword.TransformAbility;
 import mage.abilities.keyword.VigilanceAbility;
 import mage.cards.CardImpl;
 import mage.cards.CardSetInfo;
@@ -49,6 +50,7 @@ public final class Colossus extends CardImpl {
         this.addAbility(new HeroicAbility(new BoostControlledEffect(0, 1, Duration.EndOfTurn)));
 
         // {T}: Transform Colossus.
+        this.addAbility(new TransformAbility());
         this.addAbility(new SimpleActivatedAbility(new TransformSourceEffect(false), new TapSourceCost()));
     }
 

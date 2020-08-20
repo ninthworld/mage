@@ -19,6 +19,7 @@ public class TransformAbility extends SimpleStaticAbility {
 
     // this state value controls if a permanent enters the battlefield already transformed
     public static final String VALUE_KEY_ENTER_TRANSFORMED = "EnterTransformed";
+    public static final String VALUE_KEY_ENTER_UNTRANSFORMED = "EnterUntransformed";
 
     public TransformAbility() {
         super(Zone.BATTLEFIELD, new TransformEffect());

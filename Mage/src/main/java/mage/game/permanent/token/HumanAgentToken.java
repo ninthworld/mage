@@ -12,7 +12,7 @@ public final class HumanAgentToken extends TokenImpl {
 
     public HumanAgentToken() {
         super("Human Agent", "1/1 black Human Agent creature token");
-        this.setOriginalExpansionSetCode("MCU");
+        this.setOriginalExpansionSetCode("MRV");
         cardType.add(CardType.CREATURE);
         color.setBlack(true);
         subtype.add(SubType.HUMAN);

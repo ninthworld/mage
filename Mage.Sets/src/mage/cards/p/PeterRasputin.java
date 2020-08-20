@@ -10,6 +10,7 @@ import mage.abilities.costs.mana.ManaCostsImpl;
 import mage.abilities.effects.common.TransformSourceEffect;
 import mage.abilities.effects.common.continuous.GainAbilityTargetEffect;
 import mage.abilities.keyword.IndestructibleAbility;
+import mage.abilities.keyword.TransformAbility;
 import mage.constants.*;
 import mage.abilities.keyword.VigilanceAbility;
 import mage.cards.CardImpl;
@@ -48,6 +49,7 @@ public final class PeterRasputin extends CardImpl {
         this.addAbility(VigilanceAbility.getInstance());
 
         // {2}{W}, {T}: Another target creature you control gains indestructible until end of turn. Transform Peter Rasputin.
+        this.addAbility(new TransformAbility());
         Ability ability = new SimpleActivatedAbility(new GainAbilityTargetEffect(IndestructibleAbility.getInstance(), Duration.EndOfTurn), new CompositeCost(new ManaCostsImpl("{2}{W}"), new TapSourceCost(), "{2}{W}, {T}"));
         ability.addTarget(new TargetCreaturePermanent(filter));
         ability.addEffect(new TransformSourceEffect(true));

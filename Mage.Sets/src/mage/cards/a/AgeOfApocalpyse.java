@@ -149,7 +149,7 @@ class AgeOfApocalpyseExileEffect extends OneShotEffect {
             controller.moveCardsToExile(toExile, source, game, true, source.getSourceId(), sourceObject.getIdName());
             ExileZone exile = game.getExile().getExileZone(source.getSourceId());
             if (exile != null && !exile.isEmpty()) {
-                source.addEffect(new AgeOfApocalpyseReturnFromExileEffect());
+                new AgeOfApocalpyseReturnFromExileEffect().apply(game, source);
                 return true;
             }
             return true;

@@ -28,7 +28,7 @@ public final class InventionArtifactToken extends TokenImpl {
 
     public InventionArtifactToken() {
         super("Invention", "colorless Invention artifact token with \"{2}, Sacrifice this artifact: You get {E}{E}; or put a +1/+1 counter on target creature.\"");
-        this.setOriginalExpansionSetCode("MCU");
+        this.setOriginalExpansionSetCode("MRV");
         cardType.add(CardType.ARTIFACT);
         subtype.add(SubType.INVENTION);
 

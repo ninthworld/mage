@@ -13,7 +13,7 @@ public final class OnslaughtToken extends TokenImpl {
 
     public OnslaughtToken() {
         super("Onslaught", "X/X blue and black Mutant Nightmare legendary creature token named Onslaught");
-        this.setOriginalExpansionSetCode("MCU");
+        this.setOriginalExpansionSetCode("MRV");
         supertype.add(SuperType.LEGENDARY);
         cardType.add(CardType.CREATURE);
         color.setBlue(true);

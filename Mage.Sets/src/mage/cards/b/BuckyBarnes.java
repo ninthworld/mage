@@ -2,20 +2,27 @@ package mage.cards.b;
 
 import java.util.UUID;
 import mage.MageInt;
+import mage.MageObjectReference;
+import mage.abilities.Ability;
 import mage.abilities.TriggeredAbilityImpl;
+import mage.abilities.common.DiesTriggeredAbility;
+import mage.abilities.effects.OneShotEffect;
 import mage.abilities.effects.common.GainLifeEffect;
 import mage.abilities.effects.common.TransformSourceEffect;
+import mage.abilities.effects.common.continuous.GainSuspendEffect;
 import mage.abilities.keyword.HeroicAbility;
-import mage.constants.SubType;
-import mage.constants.SuperType;
+import mage.abilities.keyword.SuspendAbility;
+import mage.abilities.keyword.TransformAbility;
+import mage.cards.Card;
+import mage.constants.*;
 import mage.cards.CardImpl;
 import mage.cards.CardSetInfo;
-import mage.constants.CardType;
-import mage.constants.Zone;
+import mage.counters.CounterType;
 import mage.game.Game;
 import mage.game.events.EntersTheBattlefieldEvent;
 import mage.game.events.GameEvent;
 import mage.game.permanent.Permanent;
+import mage.players.Player;
 
 /**
  *
@@ -39,9 +46,10 @@ public final class BuckyBarnes extends CardImpl {
         this.addAbility(new HeroicAbility(new GainLifeEffect(2)));
 
         // When Bucky Barnes dies, exile him with Suspend 2.
-
+        this.addAbility(new DiesTriggeredAbility(new BuckyBarnesSuspendEffect(2)));
 
         // If Bucky Barnes entered the battlefield from exile, transform him.
+        this.addAbility(new TransformAbility());
         this.addAbility(new BuckyBarnesTriggeredAbility());
     }
 
@@ -52,6 +60,43 @@ public final class BuckyBarnes extends CardImpl {
     @Override
     public BuckyBarnes copy() {
         return new BuckyBarnes(this);
+    }
+}
+
+class BuckyBarnesSuspendEffect extends OneShotEffect {
+
+    private int suspendCount;
+
+    public BuckyBarnesSuspendEffect(int suspendCount) {
+        super(Outcome.Benefit);
+        this.suspendCount = suspendCount;
+        this.staticText = "exile it with suspend " + suspendCount;
+    }
+
+    public BuckyBarnesSuspendEffect(final BuckyBarnesSuspendEffect effect) {
+        super(effect);
+        this.suspendCount = effect.suspendCount;
+    }
+
+    @Override
+    public BuckyBarnesSuspendEffect copy() {
+        return new BuckyBarnesSuspendEffect(this);
+    }
+
+    @Override
+    public boolean apply(Game game, Ability source) {
+        Player controller = game.getPlayer(source.getControllerId());
+        Card card = game.getCard(source.getSourceId());
+        if (controller != null && card != null) {
+            if (game.getState().getZone(card.getId()) == Zone.GRAVEYARD) {
+                UUID exileId = SuspendAbility.getSuspendExileId(controller.getId(), game);
+                controller.moveCardToExileWithInfo(card, exileId, "Suspended cards of " + controller.getName(), source.getSourceId(), game, Zone.GRAVEYARD, true);
+                card.addCounters(CounterType.TIME.createInstance(this.suspendCount), source, game);
+                game.addEffect(new GainSuspendEffect(new MageObjectReference(card, game)), source);
+            }
+            return true;
+        }
+        return false;
     }
 }
 

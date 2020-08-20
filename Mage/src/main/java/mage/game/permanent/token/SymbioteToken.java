@@ -16,7 +16,7 @@ public final class SymbioteToken extends TokenImpl {
 
     public SymbioteToken() {
         super("Symbiote", "0/0 black Symbiote creature token with graft 2");
-        this.setOriginalExpansionSetCode("MCU");
+        this.setOriginalExpansionSetCode("MRV");
 
         cardType.add(CardType.CREATURE);
         subtype.add(SubType.SYMBIOTE);

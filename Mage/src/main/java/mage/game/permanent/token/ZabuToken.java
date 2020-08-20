@@ -17,7 +17,7 @@ public final class ZabuToken extends TokenImpl {
 
     public ZabuToken() {
         super("Zabu", "2/3 green Cat legendary creature token");
-        this.setOriginalExpansionSetCode("MCU");
+        this.setOriginalExpansionSetCode("MRV");
         supertype.add(SuperType.LEGENDARY);
         cardType.add(CardType.CREATURE);
         color.setGreen(true);

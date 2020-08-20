@@ -12,7 +12,7 @@ public final class DoombotToken extends TokenImpl {
 
     public DoombotToken() {
         super("Doombot", "1/1 black Doombot artifact creature token with flying");
-        this.setOriginalExpansionSetCode("MCU");
+        this.setOriginalExpansionSetCode("MRV");
         cardType.add(CardType.CREATURE);
         cardType.add(CardType.ARTIFACT);
         color.setBlack(true);

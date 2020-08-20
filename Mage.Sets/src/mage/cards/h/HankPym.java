@@ -10,6 +10,7 @@ import mage.abilities.effects.OneShotEffect;
 import mage.abilities.effects.common.CreateTokenEffect;
 import mage.abilities.effects.common.TransformSourceEffect;
 import mage.abilities.effects.keyword.InventEffect;
+import mage.abilities.keyword.TransformAbility;
 import mage.constants.*;
 import mage.cards.CardImpl;
 import mage.cards.CardSetInfo;
@@ -45,6 +46,7 @@ public final class HankPym extends CardImpl {
         this.addAbility(new EntersBattlefieldAbility(new HankPymEffect()));
 
         // At the beginning of your upkeep, if you control two or more artifacts, transform Hank Pym.
+        this.addAbility(new TransformAbility());
         this.addAbility(new HankPymUpkeepTriggeredAbility());
     }
 
@@ -80,7 +82,7 @@ class HankPymEffect extends OneShotEffect {
         if (controller != null) {
             int repeat = source.getManaCostsToPay().getX();
             for (int i = 0; i < repeat; i++) {
-                source.addEffect(new InventEffect());
+                new InventEffect().apply(game, source);
             }
             return true;
         }

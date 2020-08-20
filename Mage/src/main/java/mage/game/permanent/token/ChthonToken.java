@@ -13,7 +13,7 @@ public final class ChthonToken extends TokenImpl {
 
     public ChthonToken() {
         super("Chthon", "7/7 black Demon God legendary creature token with indestructible");
-        this.setOriginalExpansionSetCode("MCU");
+        this.setOriginalExpansionSetCode("MRV");
         supertype.add(SuperType.LEGENDARY);
         cardType.add(CardType.CREATURE);
         color.setBlack(true);

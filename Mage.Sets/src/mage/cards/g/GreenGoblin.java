@@ -67,6 +67,7 @@ public final class GreenGoblin extends CardImpl {
         this.addAbility(new GreenGoblinAbility());
 
         // Pay 1 life, {T}: Transform Green Goblin.
+        this.addAbility(new TransformAbility());
         this.addAbility(new SimpleActivatedAbility(new TransformSourceEffect(false), new CompositeCost(new PayLifeCost(1), new TapSourceCost(), "Pay 1 life, {T}")));
     }
 

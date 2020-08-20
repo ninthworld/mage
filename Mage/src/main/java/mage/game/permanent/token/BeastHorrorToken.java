@@ -14,7 +14,7 @@ public final class BeastHorrorToken extends TokenImpl {
 
     public BeastHorrorToken() {
         super("Beast Horror", "6/7 black and green Beast Horror creature token");
-        this.setOriginalExpansionSetCode("MCU");
+        this.setOriginalExpansionSetCode("MRV");
         cardType.add(CardType.CREATURE);
         color.setGreen(true);
         color.setBlack(true);

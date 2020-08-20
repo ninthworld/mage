@@ -12,7 +12,7 @@ public final class ElementalToken extends TokenImpl {
 
     public ElementalToken() {
         super("Elemental", "1/1 red Elemental creature token");
-        this.setOriginalExpansionSetCode("MCU");
+        this.setOriginalExpansionSetCode("MRV");
         cardType.add(CardType.CREATURE);
         color.setRed(true);
         subtype.add(SubType.ELEMENTAL);

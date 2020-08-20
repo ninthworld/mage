@@ -17,7 +17,7 @@ public final class SpiderRadioactiveToken extends TokenImpl {
 
     public SpiderRadioactiveToken() {
         super("Spider", "1/2 green Spider creature token with reach and radioactive");
-        this.setOriginalExpansionSetCode("MCU");
+        this.setOriginalExpansionSetCode("MRV");
         cardType.add(CardType.CREATURE);
         color.setGreen(true);
         subtype.add(SubType.SPIDER);
